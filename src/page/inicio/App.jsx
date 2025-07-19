@@ -13,7 +13,8 @@ const App = () => {
         <div className="button-section">
           <Button
             name="INICIAR SESION"
-            title="YA SOY PARTE!" />
+            title="YA SOY PARTE!"
+            link="/Login" />
           <Button
             name="REGISTRAR"
             title="SOY UN USUARIO NUEVO" />

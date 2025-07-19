@@ -1,10 +1,12 @@
 import '../button/Button.css'
+import '../../router/RouterApp'
 
 const Button = (props) => {
+
   return (
     <>
       <p>{props.title}</p>
-      <button>{props.name}</button>
+      <button href={props.link}>{props.name}</button>
     </>
   )
 }
