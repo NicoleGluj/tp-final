@@ -1,15 +1,19 @@
-.title-section {
-  background-color: rgb(255, 205, 43);
-  border-radius: 20px;
-  height: 100%;
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  flex-direction: column;
-  padding: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-.card-login {
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(226, 226, 226);
+}
+
+.card-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +23,17 @@
   -webkit-box-shadow: -2px 0px 28px -4px rgba(107, 107, 107, 0.77);
   -moz-box-shadow: -2px 0px 28px -4px rgba(107, 107, 107, 0.77);
   height: 500px;
+}
+
+.title-section {
+  background-color: rgb(255, 205, 43);
+  border-radius: 20px;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .title-section h1 {
@@ -33,4 +48,9 @@
 
 .title-section h3 {
   font-size: 15px;
+}
+
+.button-section {
+  margin: 20px;
+  text-align: center;
 }

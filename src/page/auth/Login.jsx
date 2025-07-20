@@ -1,23 +1,21 @@
 import Button from "../../components/button/Button";
-import LoginPage from "../../components/login_page/LoginPage";
-import '../auth/Auth.css'
+import Input from "../../components/input/Input";
+import AuthLayout from "../../layout/authLayout/AuthLayout";
 
 const Login = () => {
   return (
     <>
-      <LoginPage />
-      <div className="button-section">
+      <AuthLayout>
+        <Input
+          name="CORREO ELECTRONICO *"
+          type="email" />
+        <Input
+          name="CONTRASEÑA *"
+          type="password" />
         <Button
           name="INICIAR SESION"
-          title="YA SOY PARTE :"
-          link="/login"
         />
-        <Button
-          name="REGISTRAR"
-          title="SOY UN USUARIO NUEVO :"
-          link="/register"
-        />
-      </div>
+      </AuthLayout>
     </>
   )
 }
