@@ -1,0 +1,16 @@
+button {
+  padding: 15px;
+  border: none;
+  background-color: rgb(255, 205, 43);
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
