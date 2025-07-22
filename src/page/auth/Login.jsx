@@ -14,6 +14,7 @@ const Login = () => {
           type="password" />
         <Button
           name="INICIAR SESION"
+          link="/home"
         />
       </AuthLayout>
     </>

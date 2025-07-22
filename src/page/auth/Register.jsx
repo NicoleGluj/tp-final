@@ -17,6 +17,7 @@ const Register = () => {
           type="password" />
         <Button
           name="REGISTRARME"
+          link="/home"
         />
       </AuthLayout>
     </>
